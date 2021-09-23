@@ -3,7 +3,7 @@ package logger
 import (
 	"fmt"
 	"github.com/kr/pretty"
-	"lib/text"
+	"github.com/meowalien/rabbitgather-lib/text"
 	"io"
 	"log"
 	"os"

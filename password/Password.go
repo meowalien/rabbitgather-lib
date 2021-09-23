@@ -1,7 +1,7 @@
 package password
 
 import (
-	"lib/math"
+	"github.com/meowalien/rabbitgather-lib/math"
 	"golang.org/x/crypto/bcrypt"
 )
 

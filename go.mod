@@ -1,4 +1,4 @@
-module lib
+module github.com/meowalien/rabbitgather-lib
 
 go 1.16
 
