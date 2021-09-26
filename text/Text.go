@@ -75,6 +75,12 @@ func ColorSting(s string, color ColorCode) string {
 	return fmt.Sprintf("\033[%dm%s\033[00m", color, s)
 }
 
+
+// ColorSting Color the given string to the given color
+func ColorByteSting(s []byte, color ColorCode) []byte {
+	return []byte(fmt.Sprintf("\033[%dm%s\033[00m", color, s))
+}
+
 //var englishLetter = []rune(AllASCII)
 
 var PlainEnglishOnlyRegexp = regexp.MustCompile(fmt.Sprintf(`^[%s%s]+$`, AllASCII, "_"))

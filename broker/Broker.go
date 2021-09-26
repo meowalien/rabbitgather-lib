@@ -1,4 +1,4 @@
-package router
+package broker
 
 const DEFULT_CHAN_SIZE = 1
 const MaximumBroadcastThreads = 1000
